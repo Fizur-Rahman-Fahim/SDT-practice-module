@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    color: rgb(250, 5, 5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 16px;
+     
+}
+.item:hover{
+    cursor: pointer;
+    color: blue;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.b-text{
+    font-size: 13px;
+    color: rgb(249, 247, 247);
+}
+.banner-btn:hover{
+    cursor: pointer;
+    color: blue;
+}
+.banner-text{
+    color: rgb(197, 31, 31);
+}
+.banner-image{
+    height: 300px;
+    width: 200px;
+}
+.full-header{
+    background-color: rgb(16, 15, 15);
+    background-image: url("./Image/post_difference-infosec-cybersecurity_featured-img_730x270.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logos{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(243, 237, 237, 0.858);
+}
+
+.service{
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+}
+.styl{
+    width: 100px;
+}
+.Cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.card{
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 35px;
+}
+
+
+.Details{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.d-image{
+    height: 400px;
+    width: 500px;
+}
+.d-btn{
+    margin-bottom: 10px;
+    background-color: rgb(135, 135, 255);
+    padding: 3px 5px;
+    border-radius: 3px;
+    border: none;
+}
+.d-btn:hover{
+    cursor: pointer;
+    color: blue
+}
+
+.d-text{
+    margin: 10px;
+    border: 1px solid white;
+    padding: 20px;
+}
+.contact-seciton{
+    display: flex;
+    padding: 10px;
+}
+.footer{
+    background-color: rgb(2, 2, 2);
+    padding: 20px;
+    color: white;
+    display: flex;
+}
+.security-manager{
+    display: flex;
+    margin: 10px;
+}
+.box{
+    text-align: center;
+    margin: 10px;
+    width: 20%;
+    border: 1px solid black;
+
+}
