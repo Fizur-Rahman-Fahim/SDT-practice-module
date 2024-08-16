@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-logo{
+    margin-left: 50px;
+}
+.home{
+    margin-left: 150px;
+}
+.nav-item{
+    margin-left: 20px;
+}
+
+.btn{
+    margin-right: 50px;
+}
+.banner{
+    margin: 0 50px;
+}
+.box-1{
+    margin: 80px 50px;
+    padding: 0 250px;
+    border-top: 3px dashed rgba(0, 0, 0, .1) ;
+    border-bottom: 3px dashed rgba(0, 0, 0, 0.1);
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    
+}
+.cards{
+    margin: 20px 30px ;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    text-align: center;
+    align-items: center;
+}
+.program-cards{
+    margin: 20px 30px ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.program-card{
+    margin: 0 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.product-card-container{
+    margin-top: 20px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.product-card{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.p-image{
+    height: 130px;
+    width: 130px;
+}
+
+.faq{
+    margin: 0px 30px ;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.faq-pic{
+    height: 400px;
+    width: 350px;
+}
+.faq-image{
+    padding-right: 20px;
+}
+
+.accordion{
+    width: 73%;
+    --bs-accordion-btn-bg: white;
+    --bs-accordion-active-color: rgba(0, 0,0,0, 0.75);
+    --bs-accordion-active-bg: rgba(0, 0,0,0, 0.75);
+    --bs-accordion-btn-focus-box-shadow:
+}
+
+.accordion-item{
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.accordion-button::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z'/%3E%3C/svg%3E");
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath d='M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z'/%3E%3C/svg%3E");
+}
+
+.get-in-touch{
+    margin: 0 10%;
+    display: flex;
+}
+
+.Contact{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 15px;
+    margin: 50px 30px;
+    width: 27%;
+    padding: 25px;
+}
+.phone{
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(125, 200, 0, 0.07)
+}
+.mail{
+
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(230, 199, 73, 0.1)
+}
+
+.location{
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(79, 183, 236, 0.12)
+}
+
+.form{
+    margin: 50px 0;
+}
+
+.form input{
+    background-color: rgba(239, 239, 239, 0.878);
+}
+.form textarea{
+    background-color: rgba(239, 239, 239, 0.878);
+}
+
+.btn{
+    width: 100%;
+    margin: 0;
+}
+
+.social-media{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 10%;
+    background-color: rgba(239, 239, 239, 0.878);
+}
+.social-media a{
+    text-decoration: none;
+}
+.icon{
+    margin: 0 6px;
+    color: black;
+}
+
+.footer{
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
